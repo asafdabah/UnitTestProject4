@@ -69,6 +69,7 @@ namespace UnitTestProject4
                         IWebElement Salery = driver.FindElement(By.XPath(salryLocator));
                         Console.WriteLine(Salery.Text);
                     }
+
                     columnCounter++;
                 }
 
